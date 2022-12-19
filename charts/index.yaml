@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   static-src-people-detector-app:
   - apiVersion: v2
-    created: "2022-12-18T21:10:34.615043713+01:00"
+    created: "2022-12-19T18:55:58.313335016+01:00"
     description: Static Source People Detector Helm chart for Kubernetes
-    digest: 3f3a4ddfce2de0e6702bc402a07555d9ab8d5a86af1eac3507892d583adb3079
+    digest: 001a0d6f3b92a7e07eaead0f7b06dfb0bf00b97fa147dcf4147f88edb6662e4f
     name: static-src-people-detector-app
     type: application
     urls:
     - https://fimperato.github.io/static-src-people-detector-helm-repo/charts/static-src-people-detector-app-1.5.5.tgz
     version: 1.5.5
-generated: "2022-12-18T21:10:34.614285618+01:00"
+generated: "2022-12-19T18:55:58.31256596+01:00"
