@@ -8,7 +8,6 @@ Below chart applications diagram:
 
 ![Applications diagram](assets/static-src-people-detection-apps-diagram.png)
 
-
 - Following POST API exposed to start retrieve from folder specified by "folderPath" POST request attribute. Detection engine is applied on available images in folder.
 ```bash
   Method POST
@@ -41,9 +40,10 @@ paths:
   http:// {loadBalancer} /store/imageInformation/retrieve
 ```
 
-- New detection info available notify are allowed to websocket by exposed web page or ws api.
+- New detection info available notify are allowed to WebSocket by exposed web page or WebSocket endpoint. WebSocket Notification Page URL is:
+```bash
+  http:// {loadBalancer} /notification/
+```
+WebSocket API entry point is ws:// {loadBalancer} /notification/ws/, and WebSocket destination is "/all/messages".
+
 - People number threshold setting, to start alerts, is available: "min.people.num.threshold" configuration in notification-app.
-
-
-
-
